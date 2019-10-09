@@ -1,0 +1,32 @@
+.map-listing-container{
+  background-color:#f1f1f1;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  flex:1; 
+  height:100vh;
+}
+
+.location-container {
+  overflow-y: scroll
+}
+
+div.loading-screen {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+div.loading-screen.hidden {
+  visibility: hidden;
+}
+
+div.loading-screen h1 {
+  color: #f1f1f1;
+  text-align: center;
+}
